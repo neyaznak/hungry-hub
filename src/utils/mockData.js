@@ -17,7 +17,7 @@ const resList = [
           "Desserts",
           "Beverages",
         ],
-        avgRating: 4.3,
+        avgRating: 4.8,
         feeDetails: {
           restaurantId: "52989",
           fees: [
@@ -35,7 +35,7 @@ const resList = [
           totalFee: 4200,
         },
         parentId: "1803",
-        avgRatingString: "4.3",
+        avgRatingString: "4.8",
         totalRatingsString: "5K+",
         sla: {
           deliveryTime: 41,
@@ -116,7 +116,7 @@ const resList = [
         areaName: "Ejipura",
         costForTwo: "₹400 for two",
         cuisines: ["Burgers", "Biryani", "American", "Snacks", "Fast Food"],
-        avgRating: 4.1,
+        avgRating: 3.1,
         feeDetails: {
           restaurantId: "25620",
           fees: [
@@ -134,7 +134,7 @@ const resList = [
           totalFee: 4200,
         },
         parentId: "547",
-        avgRatingString: "4.1",
+        avgRatingString: "3.1",
         totalRatingsString: "10K+",
         sla: {
           deliveryTime: 28,
@@ -276,7 +276,7 @@ const resList = [
         areaName: "Koramangala",
         costForTwo: "₹350 for two",
         cuisines: ["Burgers", "American"],
-        avgRating: 4.2,
+        avgRating: 4.9,
         feeDetails: {
           restaurantId: "5934",
           fees: [
@@ -294,7 +294,7 @@ const resList = [
           totalFee: 3500,
         },
         parentId: "166",
-        avgRatingString: "4.2",
+        avgRatingString: "4.9",
         totalRatingsString: "10K+",
         sla: {
           deliveryTime: 39,
@@ -356,7 +356,7 @@ const resList = [
         areaName: "Koramangala",
         costForTwo: "₹400 for two",
         cuisines: ["Pizzas", "Italian", "Pastas", "Desserts"],
-        avgRating: 4.3,
+        avgRating: 3.6,
         feeDetails: {
           restaurantId: "108424",
           fees: [
@@ -374,7 +374,7 @@ const resList = [
           totalFee: 3500,
         },
         parentId: "2456",
-        avgRatingString: "4.3",
+        avgRatingString: "3.6",
         totalRatingsString: "5K+",
         sla: {
           deliveryTime: 25,
@@ -437,7 +437,7 @@ const resList = [
           "Indian",
           "Desserts",
         ],
-        avgRating: 4,
+        avgRating: 3.2,
         feeDetails: {
           restaurantId: "6903",
           fees: [
@@ -455,7 +455,7 @@ const resList = [
           totalFee: 3500,
         },
         parentId: "398",
-        avgRatingString: "4.0",
+        avgRatingString: "3.2",
         totalRatingsString: "10K+",
         sla: {
           deliveryTime: 42,
@@ -1588,7 +1588,7 @@ const resList = [
           "Punjabi",
           "Raja",
         ],
-        avgRating: 4.4,
+        avgRating: 2.4,
         feeDetails: {
           restaurantId: "19563",
           fees: [
@@ -1606,7 +1606,7 @@ const resList = [
           totalFee: 3500,
         },
         parentId: "4317",
-        avgRatingString: "4.4",
+        avgRatingString: "2.4",
         totalRatingsString: "10K+",
         sla: {
           deliveryTime: 34,
