@@ -16,7 +16,7 @@ useEffect(() => {
 
 const fetchData = async () => {
   const data = await fetch(
-    "https://corsproxy.io/?https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9351929&lng=77.62448069999999&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING"
+    "https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9351929&lng=77.62448069999999&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING"
   );
 
   const json = await data.json();
@@ -45,13 +45,11 @@ if(listOfRestaurants.length === 0){
           />
           <button
             onClick={() => {
-              
-              const filteredRestaurant = listOfRestaurants.filter(
-                (res) => res.info.name.toLowerCase().includes(searchText.toLowerCase())
-                );
+              const filteredRestaurant = listOfRestaurants.filter((res) =>
+                res.info.name.toLowerCase().includes(searchText.toLowerCase())
+              );
 
-                setFilteredRestaurant(filteredRestaurant);
-
+              setFilteredRestaurant(filteredRestaurant);
             }}
           >
             Search
@@ -71,14 +69,17 @@ if(listOfRestaurants.length === 0){
       </div>
       <div className="res-container">
         {filteredRestaurant.map((restaurant) => (
-          <Link key={restaurant?.info?.id} to={"/restaurants/"+restaurant?.info?.id}><RestaurantCard resData={restaurant} /></Link>
+          <Link
+            key={restaurant?.info?.id}
+            to={"/restaurants/" + restaurant?.info?.id}
+          >
+            <RestaurantCard resData={restaurant} />
+          </Link>
         ))}
       </div>
     </div>
   );
 }
-
-  
 };
 
 export default Body;
